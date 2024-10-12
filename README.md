@@ -1,24 +1,47 @@
-# Getting Started with [Fastify-CLI](https://www.npmjs.com/package/fastify-cli)
+# PowerHR Playground Edition
+# PowerHR-Playground-Server
+## Getting started
 
-This project was bootstrapped with Fastify-CLI.
+### Clone the Repository
 
-## Available Scripts
+To clone the repository, use the following command:
 
-In the project directory, you can run:
+```sh
+git clone https://github.com/UTMPowerHR/PowerHR-Playground-Server.git
+cd powerhr-server
+```
 
-### `npm run dev`
+### Install Dependencies
 
-To start the app in dev mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+To install the necessary dependencies, run:
 
-### `npm start`
+```sh
+npm install or npm i
+```
 
-For production mode
+### Environment Variables
 
-### `npm run test`
+This playground not use any env
 
-Run the test cases.
+### Run the Application in Development
 
-## Learn More
+To start the application in development mode, use:
 
-To learn Fastify, check out the [Fastify documentation](https://www.fastify.io/docs/latest/).
+```sh
+npm run dev
+```
+
+Once the application in runnning, you can open your browser and navigate to
+`http://localhost:3000` to access the application.
+
+#### Swagger API Documentation
+The project includes Swagger for API documentation. You can access it by navigating to
+`http://localhost:3000/docs`.
+
+
+License
+-------
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+* * *
